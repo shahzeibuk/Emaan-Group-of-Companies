@@ -56,8 +56,8 @@ export default function HomePage() {
             The promise
           </p>
           <p className="promise-text">
-            We would rather leave a number out than invent one. Prices, measurements, dates, and
-            registration details are shared when they can be confirmed.
+            A shipment, a system, or a home should be easy to follow. The group keeps one standard
+            for all three: plain words, and delivery that matches them.
           </p>
         </div>
       </section>
