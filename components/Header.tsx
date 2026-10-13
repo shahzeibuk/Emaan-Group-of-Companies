@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useId, useState } from "react";
@@ -32,13 +33,14 @@ export function Header() {
     <header className="site-header">
       <div className="wrap header-inner">
         <Link href="/" className="brand">
-          <span className="brand-mark" aria-hidden="true">
-            E
-          </span>
-          <span className="brand-text">
-            <span className="brand-name">Emaan</span>
-            <span className="brand-sub">Group of Companies</span>
-          </span>
+          <Image
+            className="brand-logo"
+            src="/brand/logo.png"
+            alt="Emaan Group of Companies"
+            width={1347}
+            height={618}
+            priority
+          />
         </Link>
         <button
           className="nav-toggle"
