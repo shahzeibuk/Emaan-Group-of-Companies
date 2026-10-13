@@ -258,38 +258,60 @@ h1 {
   align-items: center;
   justify-content: space-between;
   gap: 0.5rem 1rem;
-  min-height: 4.5rem;
-  padding-block: 0.75rem;
+  min-height: 5.5rem;
+  padding-block: 0.7rem;
 }
 
 .brand {
   display: flex;
   align-items: center;
+  gap: 0.75rem;
   min-width: 0;
   text-decoration: none;
-  color: inherit;
+  color: #0a6840;
 }
 
-.brand-logo {
+.brand-mark {
   display: block;
+  flex: none;
   width: auto;
-  height: 2.85rem;
-  max-width: min(14rem, calc(100vw - 8.5rem));
-  object-fit: contain;
+  height: 3.6rem;
 }
 
-.brand-name {
+.brand-rule {
+  flex: none;
+  align-self: stretch;
+  width: 2px;
+  margin-block: 0.2rem;
+  background: #0a6840;
+}
+
+.brand-word {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+}
+
+.brand .brand-name {
   display: block;
-  font-size: 1.35rem;
+  font-family: var(--font-cinzel), "Times New Roman", serif;
+  font-weight: 600;
+  font-size: clamp(1.85rem, 3.4vw, 2.7rem);
+  line-height: 0.9;
+  letter-spacing: 0.14em;
+  color: #0a6840;
+}
+
+.brand .brand-sub {
+  display: block;
+  margin-top: 0.32rem;
+  font-family: var(--font-montserrat), "Segoe UI", sans-serif;
+  font-weight: 500;
+  font-size: clamp(0.68rem, 1.25vw, 0.92rem);
   line-height: 1;
-  letter-spacing: -0.03em;
-}
-
-.brand-sub {
-  display: block;
-  margin-top: 0.22rem;
-  color: var(--ink-soft);
-  letter-spacing: 0.12em;
+  letter-spacing: 0.16em;
+  color: #0a6840;
 }
 
 .nav-toggle {

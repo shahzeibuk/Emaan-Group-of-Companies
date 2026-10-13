@@ -32,7 +32,12 @@ export function Header() {
     <header className="site-header">
       <div className="wrap header-inner">
         <Link href="/" className="brand">
-          <img className="brand-logo" src="/brand/logo.png" alt="Emaan Group of Companies" />
+          <img className="brand-mark" src="/brand/mark.svg" alt="" />
+          <span className="brand-rule" aria-hidden="true" />
+          <span className="brand-word">
+            <span className="brand-name">EMAAN</span>
+            <span className="brand-sub">GROUP OF COMPANIES</span>
+          </span>
         </Link>
         <button
           className="nav-toggle"

@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
-import { Fraunces, Outfit } from "next/font/google";
+import { Cinzel, Fraunces, Montserrat, Outfit } from "next/font/google";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import "./globals.css";
@@ -15,6 +15,20 @@ const outfit = Outfit({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-outfit",
+});
+
+const cinzel = Cinzel({
+  subsets: ["latin"],
+  weight: "600",
+  display: "swap",
+  variable: "--font-cinzel",
+});
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: "500",
+  display: "swap",
+  variable: "--font-montserrat",
 });
 
 export const metadata: Metadata = {
@@ -45,7 +59,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en" className={`${fraunces.variable} ${outfit.variable}`}>
+    <html lang="en" className={`${fraunces.variable} ${outfit.variable} ${cinzel.variable} ${montserrat.variable}`}>
       <body>
         <a className="skip-link" href="#content">
           Skip to content
