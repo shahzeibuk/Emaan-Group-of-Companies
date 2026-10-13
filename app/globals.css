@@ -718,7 +718,97 @@ h1 {
 
 .page-intro {
   padding-block: clamp(2.8rem, 6vw, 5.2rem) clamp(1.2rem, 3vw, 2rem);
-  border-bottom: 1px solid var(--line);
+}
+
+.page-hero {
+  position: relative;
+  height: clamp(14rem, 36vw, 28rem);
+  margin: 0;
+  overflow: hidden;
+  background: var(--forest);
+}
+
+.page-hero img {
+  object-fit: cover;
+}
+
+.page-photo {
+  position: relative;
+  min-height: 18rem;
+  margin: 0;
+  overflow: hidden;
+  background: var(--sage);
+}
+
+.page-photo img {
+  object-fit: cover;
+}
+
+.company-grid {
+  list-style: none;
+  display: grid;
+  gap: 1.75rem;
+}
+
+.company-grid li {
+  display: flex;
+  flex-direction: column;
+  background: var(--white);
+  border: 1px solid var(--line);
+}
+
+.company-grid figure {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  margin: 0;
+  overflow: hidden;
+  background: var(--sage);
+}
+
+.company-grid img {
+  object-fit: cover;
+}
+
+.company-grid div {
+  padding: 1.15rem 1.2rem 1.35rem;
+}
+
+.company-grid h3 {
+  margin-bottom: 0.45rem;
+  font-size: 1.45rem;
+}
+
+.service-company {
+  margin-bottom: 0.4rem;
+  color: var(--emerald);
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.service-cta {
+  margin-top: 1.75rem;
+}
+
+.company-grid p {
+  color: var(--ink-soft);
+}
+
+@media (min-width: 800px) {
+  .company-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .company-grid li:last-child {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  }
+
+  .company-grid li:last-child figure {
+    aspect-ratio: auto;
+    min-height: 16rem;
+  }
 }
 
 .page-intro h1 {

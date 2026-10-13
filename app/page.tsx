@@ -87,7 +87,7 @@ export default function HomePage() {
               export, software, and agriculture.
             </p>
             <p>Emaan means faith, trust, and integrity, held as a standard of delivery.</p>
-            <Link href="/about">Read more</Link>
+            <Link href="/who-we-are">Read more</Link>
           </div>
           <figure className="about-us-photo">
             <Image
@@ -160,7 +160,7 @@ export default function HomePage() {
             <h2 id="careers-title">Careers</h2>
             <p>Join Emaan Group of Companies.</p>
           </div>
-          <Link className="careers-apply" href="/contact">
+          <Link className="careers-apply" href="/career">
             Apply now
           </Link>
         </div>

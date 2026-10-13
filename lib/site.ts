@@ -10,7 +10,6 @@ export const logistics = {
   domain: "emaanlogistics.com",
   url: "https://emaanlogistics.com",
   email: "logistics@emaanlogistics.com",
-  href: "/logistics",
 } as const;
 
 export const softTech = {
@@ -18,29 +17,25 @@ export const softTech = {
   domain: "emaansofttech.com",
   url: "https://emaansofttech.com",
   email: "hello@emaansofttech.com",
-  href: "/soft-tech",
 } as const;
 
 export const nav = [
-  { href: "/about", label: "About" },
-  { href: "/logistics", label: "Logistics" },
-  { href: "/soft-tech", label: "Soft Tech" },
-  { href: "/enclave", label: "Enclave" },
-  { href: "/housing", label: "Housing" },
+  { href: "/", label: "Home" },
+  { href: "/who-we-are", label: "Who we are" },
+  { href: "/services", label: "Services" },
+  { href: "/career", label: "Career" },
   { href: "/contact", label: "Contact" },
 ] as const;
 
-export const pages = [
-  { href: "/", label: "Home" },
-  ...nav,
-] as const;
+export const pages = nav;
 
 export const businesses = [
   { value: "group", label: "Emaan Group of Companies", email: group.email },
-  { value: "logistics", label: "Emaan Logistics", email: logistics.email },
-  { value: "soft-tech", label: "Emaan Soft Tech", email: softTech.email },
-  { value: "enclave", label: "Emaan Enclave", email: group.email },
   { value: "housing", label: "Emaan Housing", email: group.email },
+  { value: "marketing", label: "Emysh Marketing", email: group.email },
+  { value: "trade", label: "Emaan Import and Exports", email: logistics.email },
+  { value: "softech", label: "Emaan Softech", email: softTech.email },
+  { value: "agriculture", label: "Emaan Agriculture", email: group.email },
 ] as const;
 
 export type BusinessValue = (typeof businesses)[number]["value"];

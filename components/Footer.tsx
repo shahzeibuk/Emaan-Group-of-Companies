@@ -12,8 +12,7 @@ export function Footer() {
         <div className="footer-brand">
           <Logo tone="light" />
           <p className="footer-note">
-            Faith, trust, and integrity — held as a standard of delivery across logistics, software,
-            and residential development.
+            Faith, trust, and integrity — held as a standard of delivery across the group.
           </p>
           <p className="footer-title footer-visit">Visit</p>
           <ul>
