@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ExternalLink } from "@/components/ExternalLink";
+import { Logo } from "@/components/Logo";
 import { group, logistics, pages, softTech } from "@/lib/site";
 
 export function Footer() {
@@ -9,8 +10,7 @@ export function Footer() {
     <footer className="site-footer">
       <div className="wrap footer-grid">
         <div className="footer-brand">
-          <p className="brand-name">Emaan</p>
-          <p className="footer-kicker">Group of Companies</p>
+          <Logo tone="light" />
           <p className="footer-note">
             Faith, trust, and integrity — held as a standard of delivery across logistics, software,
             and residential development.

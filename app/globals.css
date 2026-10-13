@@ -316,6 +316,16 @@ h1 {
   color: #0a6840;
 }
 
+.brand-on-dark,
+.brand-on-dark .brand-name,
+.brand-on-dark .brand-sub {
+  color: #e7f4ec;
+}
+
+.brand-on-dark .brand-rule {
+  background: #e7f4ec;
+}
+
 .nav-toggle {
   display: inline-flex;
   align-items: center;
@@ -1031,9 +1041,12 @@ textarea[aria-invalid="true"] {
   gap: 2rem;
 }
 
-.footer-brand .brand-name {
-  font-size: 2rem;
-  color: var(--paper);
+.footer-brand .brand {
+  margin-bottom: 0.15rem;
+}
+
+.footer-brand .brand:hover {
+  text-decoration: none;
 }
 
 .footer-kicker {
