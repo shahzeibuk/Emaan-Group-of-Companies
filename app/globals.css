@@ -265,6 +265,7 @@ h1 {
 .brand {
   display: flex;
   align-items: center;
+  min-width: 0;
   text-decoration: none;
   color: inherit;
 }
@@ -272,8 +273,9 @@ h1 {
 .brand-logo {
   display: block;
   width: auto;
-  height: 3.15rem;
-  max-width: min(15.5rem, 62vw);
+  height: 2.85rem;
+  max-width: min(14rem, calc(100vw - 8.5rem));
+  object-fit: contain;
 }
 
 .brand-name {
