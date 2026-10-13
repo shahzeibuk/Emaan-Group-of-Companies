@@ -15,6 +15,13 @@ export function Footer() {
             Faith, trust, and integrity — held as a standard of delivery across logistics, software,
             and residential development.
           </p>
+          <p className="footer-title footer-visit">Visit</p>
+          <ul>
+            <li>A-317, Saadabad co-operative housing society, Jinnah Avenue, Karachi.</li>
+            <li>
+              <a href="tel:+923062787898">0306-2787898</a>
+            </li>
+          </ul>
         </div>
         <nav aria-label="Footer">
           <p className="footer-title">Pages</p>
