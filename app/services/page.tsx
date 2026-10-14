@@ -28,7 +28,7 @@ const services = [
     name: "Import and export",
     company: "Emaan Import and Exports",
     image: "/pages/trade.jpg",
-    alt: "A container ship at a commercial port.",
+    alt: "Port activity at Dar es Salaam, Tanzania.",
     text: "Trade in exotic fruits, bed sheets, mineral ores, and industrial goods. We handle the commercial coordination and the documents a shipment needs to clear.",
   },
   {
