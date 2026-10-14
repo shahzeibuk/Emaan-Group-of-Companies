@@ -42,7 +42,7 @@ const services = [
     name: "Agriculture",
     company: "Emaan Agriculture",
     image: "/pages/agriculture.jpg",
-    alt: "A green cultivated field under a bright sky.",
+    alt: "A corporate farming field.",
     text: "Cultivation, fresh produce, and farm supply. We supply what the season and the agreement actually cover, and we say so before the order is placed.",
   },
 ] as const;

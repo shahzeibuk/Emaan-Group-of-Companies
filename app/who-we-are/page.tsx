@@ -37,7 +37,7 @@ const companies = [
   {
     name: "Emaan Agriculture",
     image: "/pages/agriculture.jpg",
-    alt: "A green cultivated field under a bright sky.",
+    alt: "A corporate farming field.",
     text: "Cultivation, fresh produce, and farm supply. We sell the crop and the supply around it as they will actually be delivered.",
   },
 ] as const;
