@@ -14,7 +14,7 @@ const services = [
     name: "Housing",
     company: "Emaan Housing",
     image: "/pages/housing.jpg",
-    alt: "A modern house with a landscaped front garden.",
+    alt: "Aerial view of Emaan Housing plots with houses under construction.",
     text: "We plan and present residential communities: Emaan Homes, Emaan Residency and Resorts, Emaan Greens, and Emaan Icon. Clients receive a clear description of the property and a direct answer on availability.",
   },
   {
